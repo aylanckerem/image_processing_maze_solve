@@ -5,19 +5,19 @@ oluşturduğumuz tabloda sistemimiz labirentin boş kanallarını doldurarak sü
 yaptığımız işlemlere ait kodların sağladıkları yaralar adım adım aşağıda verilmiştir:
 
 1. Görüntünün yüklenmesi:
-   -"cv2.imread" fonksiyonuyla görüntü dosyası okunur.
+   - "cv2.imread" fonksiyonuyla görüntü dosyası okunur.
 
 2. Gri tonlamaya dönüştürme:
-   -"cv2.cvtColor" fonksiyonuyla renkli görüntü, gri tonlamalı görüntüye dönüştürülür.
+   - "cv2.cvtColor" fonksiyonuyla renkli görüntü, gri tonlamalı görüntüye dönüştürülür.
 
 3. Eşikleme:
-   -"cv2.threshold" fonksiyonuyla gri tonlamalı görüntü eşiklenir ve siyah-beyaz ikili bir görüntü elde edilir.
+   - "cv2.threshold" fonksiyonuyla gri tonlamalı görüntü eşiklenir ve siyah-beyaz ikili bir görüntü elde edilir.
 
 4. Konturların bulunması:
-   -"cv2.findContours" fonksiyonuyla eşiklenmiş görüntüdeki konturlar bulunur.
+   - "cv2.findContours" fonksiyonuyla eşiklenmiş görüntüdeki konturlar bulunur.
 
 5. Konturların çizdirilmesi:
-   -"cv2.drawContours" fonksiyonuyla konturlar, görüntü üzerine çizdirilir.
+   - "cv2.drawContours" fonksiyonuyla konturlar, görüntü üzerine çizdirilir.
 
 6. İkinci konturun çizdirilmesi:
    - İlk konturun üzerine birinci kontur çizdirilir.
