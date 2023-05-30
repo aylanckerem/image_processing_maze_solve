@@ -44,5 +44,7 @@ yaptığımız işlemlere ait kodların amaçları adım adım aşağıda verilm
 14. Sonuç görüntüsünün oluşturulması:
     - Maskelenmiş renk kanalları birleştirilerek çözülmüş labirentin sonuç görüntüsü elde edilir.
 
-aldığımız sonuç çıktısı aşşağıda paylaşılmıştır.
+aldığımız sonuç çıktısı aşağıda paylaşılmıştır.
+
+![çıktı](https://github.com/aylanckerem/image_processing_maze_solve/assets/96474969/d51be28f-81aa-4828-ac92-37dab80eaa1c)
 
