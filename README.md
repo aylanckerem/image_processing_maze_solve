@@ -1,8 +1,8 @@
 # image_processing_maze_solve
 
 oluşturduğumuz sistem bir görüntü üzerinde bazı görüntü işleme tekniklerini kullanarak bir labirentin çözülmesini gerçekleştirir. 
-oluşturduğumuz tabloda sistemimiz labirentin boş kanallarını doldurarak sürekli çıkışı arar ve her çıkışı bulamadığını izledği yolun sonuna bir kontür atarak çıkışları bularak sonuca ulaşır en sonunda çıkışa ait doğru sonucu bulduğunda izlediği yolu renklendirerek sonucu gösterir.
-yaptığımız işlemlere ait kodların sağladıkları yaralar adım adım aşağıda verilmiştir:
+oluşturduğumuz sistemimiz labirentin boş kanallarını doldurarak sürekli çıkışı arar ve her çıkışı bulamadığını izlediği yolun sonuna bir kontür atarak çıkışları bulup sonuca ulaşır. En sonunda çıkışa ait doğru sonucu bulduğunda izlediği yolu renklendirerek sonucu gösterir.
+yaptığımız işlemlere ait kodların amaçları adım adım aşağıda verilmiştir:
 
 1. Görüntünün yüklenmesi:
    - "cv2.imread" fonksiyonuyla görüntü dosyası okunur.
